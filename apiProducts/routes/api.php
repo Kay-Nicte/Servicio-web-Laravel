@@ -25,3 +25,4 @@ Route::resource('products', ProductController::class);
 
 Route::get('products/preuInferior/{preu}', [ProductController::class, 'productesPreuInferior'])->name('products.preuInferior');
 Route::get('products/delete/{id}', [ProductController::class, 'destroy'])->name('products.destroy');
+
